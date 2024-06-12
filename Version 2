@@ -8,7 +8,7 @@ function deleteLast() {
 }
 
 function appendValue(value) {
-     
+     // prevent peforming operation on result //
     if (resultDisplayed) {
                 clearDisplay();
             }
