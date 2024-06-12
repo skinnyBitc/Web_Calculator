@@ -8,6 +8,10 @@ function deleteLast() {
 }
 
 function appendValue(value) {
+     
+    if (resultDisplayed) {
+                clearDisplay();
+            }
     let display = document.getElementById('display');
     display.value += value;
 }
